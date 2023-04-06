@@ -1,0 +1,12 @@
+{
+  "name": "stock-exchange-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
