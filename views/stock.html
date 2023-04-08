@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Stock</title>
+</head>
+<body>
+  <h1>Add Stock</h1>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="quantity">Quantity:</label>
+    <input type="text" id="quantity" name="quantity"><br><br>
+    <label for="price">Price:</label>
+    <input type="text" id="price" name="price"><br><br>
+    <button type="button" onclick="addStock()">Add</button>
+  </form>
+  <h2>Stocks</h2>
+  <ul id="stocks"></ul>
+
+  <script src="stocksController.js"></script>
+</body>
+</html>
+
