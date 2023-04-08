@@ -30,4 +30,4 @@ class StocksController {
     stocksController.addStock(name, quantity, price);
   }
   
-  
+//   change the codes if doesnot work
